@@ -1,0 +1,17 @@
+clc;
+clear all;
+close all;
+n=-5:5;
+x=ones(1,11);
+[Rxx,lag]=xcorr(x,x);
+disp('auto correlation sequence Rxx(n) is :');
+disp(Rxx);
+subplot(2,1,1);
+stem(n,x);
+xlabel('n');
+ylabel('x(n)');
+subplot(2,1,2);
+stem(lag,Rxx);
+title('Auto correlation output');
+xlabel('n');
+ylabel('r(n)');
