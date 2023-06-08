@@ -2,7 +2,7 @@ clc;
 clear all;
 close all;
 xn=input ('Enter the first sequence x(n) ='); 
-[ 3hn=input ('Enter the second sequence h(n)=');
+hn=input ('Enter the second sequence h(n)=');
 N=length(xn)+length(hn)-1;
 Xk=fft (xn,N);
 Hk=fft (hn,N);
