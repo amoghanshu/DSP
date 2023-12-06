@@ -1,2 +1,2 @@
 # DSP
-The matlab codes can be used to perform cetrain signal processing tasks on matlab efficiently and qickly.
+The MATLAB codes can be used to perform certain signal processing tasks on MATLAB efficiently and quickly.
